@@ -23,7 +23,9 @@ setup(
 ```
 This `find_packages` function will lookup to the root and find all packages. Then, we can use these packages (which we have create) in our project like an external package which have we get from PYPI.
 
-**Q**: OK, but how can I create my own package?:
+**Q**: OK, but how can I create my own package?
+
+
 **A**: In simple terms, if you create the `__init__.py` file in one of folders, Python will behave these folders as packages, even if the `__init__.py` file is empty!
 
 - Now, we will install our package locally in editable mode with `pip`:
